@@ -3,7 +3,9 @@ FROM python:3.11.2-alpine
 WORKDIR /todo-list
 
 COPY requirements.txt ./
-COPY todo-list ./
+COPY app.py ./
+COPY static ./
+COPY templates ./
 
 RUN pip install -r requirements.txt
 
