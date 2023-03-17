@@ -4,6 +4,7 @@ WORKDIR /todo-list
 
 COPY requirements.txt ./
 COPY app.py ./
+COPY instance ./
 COPY static ./
 COPY templates ./
 
