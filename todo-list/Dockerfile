@@ -3,7 +3,7 @@ FROM python:3.11.2-alpine
 WORKDIR /todo-list
 
 COPY requirements.txt ./
-COPY src ./
+COPY todo-list ./
 
 RUN pip install -r requirements.txt
 
